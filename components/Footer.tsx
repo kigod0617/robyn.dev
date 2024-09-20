@@ -65,7 +65,7 @@ const socialLinks = [
   {
     id: 2,
     title: "Robyn Marsden's Resume",
-    link: "https://drive.google.com/file/d/1O3Rxp4In8BHTz3n98bYVoCi1kAD-4dTg/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1aocWOsB9VxWF8Vimh_75F5iL6XtRILhv/view?usp=drive_link",
     svg: (
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
