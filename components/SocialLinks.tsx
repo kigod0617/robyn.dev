@@ -42,6 +42,8 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
               title={social.title}
               href={social.link}
               className="scale-110 rounded link-outline"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               {social.svg}
             </a>
@@ -99,7 +101,7 @@ const socialLinks = [
   {
     id: 3,
     title: "Robyn Marsden's phone number",
-    link: "mailto:robyn.m.0617@gmail.com",
+    link: "tel:+44 7458038594",
     svg: (
       <svg 
         width="22" 

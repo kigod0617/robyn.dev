@@ -14,6 +14,8 @@ const Footer: React.FC<Props> = ({ noPadding = false }) => {
             href={social.link}
             title={social.title}
             className="transform scale-150 md:scale-125 link-outline"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             {social.svg}
           </a>
@@ -88,7 +90,7 @@ const socialLinks = [
   {
     id: 3,
     title: "Robyn Marsden's phone number",
-    link: "mailto:gurumandv1123@gmail.com",
+    link: "tel:+44 7458038594",
     svg: (
       <svg 
         width="22" 
