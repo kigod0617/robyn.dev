@@ -138,7 +138,7 @@ const HeroSection: React.FC = () => {
             With my expertise in smart contracts, Ethereum, Solidity, Hyperledger, and decentralized applications (dApps), I bring a deep understanding of blockchain technology combined with innovative problem-solving to every project I work on.
           </p>
         </div>
-        <LinkButton href={`mailto:${process.env.NEXT_PUBLIC_EMAIL}`}>
+        <LinkButton href={`mailto:robyn.m.0617@gmail.com`}>
           Contact me!
         </LinkButton>
       </div>
