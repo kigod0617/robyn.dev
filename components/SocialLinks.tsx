@@ -99,7 +99,7 @@ const socialLinks = [
   {
     id: 3,
     title: "Robyn Marsden's phone number",
-    link: "mailto:gurumandv1123@gmail.com",
+    link: "mailto:robyn.m.0617@gmail.com",
     svg: (
       <svg 
         width="22" 
