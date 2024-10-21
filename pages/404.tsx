@@ -11,7 +11,7 @@ const Home: NextPage = () => {
   return (
     <>
       <AppHead
-        title="Robyn Marsden - A Blockchain Developer"
+        title="Robyn Marsden - A Software Engineer"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />

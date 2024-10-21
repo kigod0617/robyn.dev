@@ -29,7 +29,7 @@ type Props = {
 
 export const meta = {
   description:
-    "Robyn Marsden is a Blockchain Developer based in Kent, United Kingdom. He is passionate about writing codes and developing web applications to solve real-life challenges.",
+    "Robyn Marsden is a Software Engineer based in Kent, United Kingdom. He is passionate about writing codes and developing web applications to solve real-life challenges.",
   author: "Robyn Marsden",
   type: "website",
   ogImage: `${process.env.NEXT_PUBLIC_URL}/satnaing-dev-og-new.png`,
@@ -159,7 +159,7 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
   return (
     <>
       <AppHead
-        title="Robyn Marsden - A Blockchain Developer"
+        title="Robyn Marsden - A Software Engineer"
         url={`${process.env.NEXT_PUBLIC_URL}`}
         meta={meta}
       />
