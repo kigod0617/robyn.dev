@@ -179,7 +179,7 @@ const AboutSection: React.FC = () => {
             </p>
 
             <div
-              className="col-start-3 col-end-6 row-start-1 row-end-6 lg:row-start-2 lg:row-end-7 md:ml-8 place-content-end"
+              className="col-start-3 col-end-6 row-start-1 row-end-6 lg:row-start-2 lg:row-end-5 md:ml-8 place-content-end"
               ref={eduRef}
             >
               <p className="edu-bg my-4">Here is my educational background.</p>
