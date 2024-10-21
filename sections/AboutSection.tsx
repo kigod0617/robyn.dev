@@ -169,12 +169,7 @@ const AboutSection: React.FC = () => {
             </div>
 
             <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              With 7 years of
-              experience in building decentralized
-              applications (dApps), smart contracts, and
-              working with Ethereum and Hyperledger.
-              Skilled in Solidity, Web3.js, and
-              implementing secure blockchain solutions
+              With 7 years of experience in building decentralized applications (dApps), smart contracts, and working with Ethereum and Hyperledger, along with expertise in full stack development using Next.js and Nuxt.js, I am skilled in Solidity, Web3.js, and implementing secure blockchain solutions. My background ensures seamless integration of blockchain technologies with both front-end and back-end development.
             </p>
 
             <div
