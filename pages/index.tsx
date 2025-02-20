@@ -106,7 +106,7 @@ const skills = [
   {
     'tag': 'Nest',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
   {
     'tag': 'Laravel',
@@ -116,12 +116,12 @@ const skills = [
   {
     'tag': 'Django',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
   {
     'tag': 'Python',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
   {
     'tag': 'REST API',
@@ -131,12 +131,12 @@ const skills = [
   {
     'tag': 'GraphQL',
     'size': 'lg',
-    'count': 10
+    'count': 9
   },
   {
     'tag': 'Prisma',
     'size': 'lg',
-    'count': 10
+    'count': 8
   },
   {
     'tag': 'Microservices',
@@ -166,7 +166,7 @@ const skills = [
   {
     'tag': 'Redis',
     'size': 'lg',
-    'count': 10
+    'count': 8
   },
   {
     'tag': 'NoSQL',
@@ -181,32 +181,32 @@ const skills = [
   {
     'tag': 'Cypress',
     'size': 'lg',
-    'count': 10
+    'count': 8
   },
   {
     'tag': 'Jest',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
   {
     'tag': 'Jasmine',
     'size': 'lg',
-    'count': 10
+    'count': 3
   },
   {
     'tag': 'TestNG',
     'size': 'lg',
-    'count': 10
+    'count': 6
   },
   {
     'tag': 'Puppeteer',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
   {
     'tag': 'TDD',
     'size': 'lg',
-    'count': 10
+    'count': 8
   },
   {
     'tag': 'Git',
@@ -216,32 +216,32 @@ const skills = [
   {
     'tag': 'Jenkins',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
   {
     'tag': 'Docker',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
   {
     'tag': 'Kubernetes',
     'size': 'lg',
-    'count': 10
+    'count': 5
   },
   {
     'tag': 'AWS',
     'size': 'lg',
-    'count': 10
+    'count': 8
   },
   {
     'tag': 'API Integration,',
     'size': 'lg',
-    'count': 10
+    'count': 9
   },
   {
     'tag': 'QA Testing',
     'size': 'lg',
-    'count': 10
+    'count': 7
   },
 ]
 
