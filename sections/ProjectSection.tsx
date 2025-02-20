@@ -85,7 +85,7 @@ const projects = [
     ),
     desc: "Blueprint: Helps enterprises scale to Agile by aligning business goals and IT deliverables. It offers visual modeling, process automation, artifact reuse, and task management, making it a leading solution in the market.",
     tags: ["Angular", "TypeScript", "RxJS", "SCSS", "Webpack"],
-    liveUrl: "https://horiza.io/",
+    liveUrl: "https://www.blueprintsys.com/",
     bgColor: "bg-[#B4BEE0]",
   },
   {
