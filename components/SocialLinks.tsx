@@ -50,7 +50,7 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
             </a>
           ))}
         </div>
-        <div className="w-24 h-1 bg-bgdark dark:bg-bglight rotate-90"></div>
+        <div className="w-[180px] h-1 bg-bgdark dark:bg-bglight rotate-90"></div>
       </div>
     </>
   );
@@ -60,7 +60,7 @@ const socialLinks = [
   {
     id: 1,
     title: "Robyn Marsden's Github Profile",
-    link: "https://github.com/grmndv1123",
+    link: "https://github.com/avagru",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ const socialLinks = [
   {
     id: 2,
     title: "Robyn Marsden's Resume",
-    link: "https://drive.google.com/file/d/1aocWOsB9VxWF8Vimh_75F5iL6XtRILhv/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1GR9-6QoowLynEKYuzqg3ARfwp585Sd2_/view",
     svg: (
       <svg 
         xmlns="http://www.w3.org/2000/svg" 
@@ -100,25 +100,9 @@ const socialLinks = [
     ),
   },
   {
-    id: 3,
-    title: "Robyn Marsden's phone number",
-    link: "tel:+44 7458038594",
-    svg: (
-      <svg 
-        width="22" 
-        height="22" 
-        viewBox="0 0 16 16" 
-        xmlns="http://www.w3.org/2000/svg"
-        className="mt-[1px]">
-        <path d="M1 5V1H7V5L4.5 7.5L8.5 11.5L11 9H15V15H11C5.47715 15 1 10.5228 1 5Z" className="dark:fill-bglight hover:fill-marrsgreen dark:hover:fill-carrigreen mt-0.5"
-        />
-      </svg>
-    ),
-  },
-  {
     id: 4,
     title: "Robyn Marsden's Telegram",
-    link: "https://t.me/kigod0531",
+    link: "https://t.me/avagru0617",
     svg: (
       <svg 
         width="24" 
@@ -133,7 +117,7 @@ const socialLinks = [
   {
     id: 4,
     title: "Robyn Marsden's Certifications",
-    link: "https://www.hackerrank.com/profile/robynmarsden0531",
+    link: "https://www.hackerrank.com/certificates/iframe/2dfc29cb2f4a",
     svg: (
       <svg 
         width="22" 
