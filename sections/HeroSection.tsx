@@ -93,7 +93,7 @@ const HeroSection: React.FC = () => {
         PASSIONATE PROGRAMMER FREELANCER FULL-STACK DEVELOPER
       </span>
 
-      <div className="image-animation z-10 select-none mt-0 xs:mt-6 sm:mt-14 lg:mt-0 px-0 mx-auto lg:p-0 lg:basis-1/3">
+      <div className="z-10 select-none mt-0 xs:mt-6 sm:mt-14 lg:mt-0 px-0 mx-auto lg:p-0 lg:basis-1/3">
         <div className="relative w-72 md:w-80 h-80 flex items-center mx-auto">
           <div className="absolute pointer-events-none scale-90 xs:scale-95 mx-auto">
             <Image
@@ -106,7 +106,7 @@ const HeroSection: React.FC = () => {
               alt="Robyn Marsden character illustration"
             />
           </div>
-          <div className="laptop absolute top-14 sm:top-16 left-0 scale-[.41] xs:scale-[.45] pointer-events-none">
+          <div className="absolute top-14 sm:top-16 left-0 scale-[.41] xs:scale-[.45]">
             <Image
               src={laptop}
               width={559}
@@ -134,8 +134,10 @@ const HeroSection: React.FC = () => {
         </div>
         <div className="mt-2 my-4 md:mb-8">
           <p className="mb-1">
-            I am a Software Engineer with a passion for creating secure and scalable solutions.
-            With my expertise in smart contracts, Ethereum, Solidity, Hyperledger, and decentralized applications (dApps), I bring a deep understanding of blockchain technology combined with innovative problem-solving to every project I work on.
+          Experienced Software Engineer specializing in scalable, high-performance solutions. Proficient in
+          JavaScript, PHP, TypeScript, Python, Node.js, and frameworks like React, Angular, Laravel, Django.
+          Passionate about solving complex problems, creating user-focused applications, and embracing
+          emerging technologies.
           </p>
         </div>
         <LinkButton href={`mailto:robyn.m.0617@gmail.com`}>

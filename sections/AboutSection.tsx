@@ -9,7 +9,7 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import bitCoin from "../public/bitcoin.jpg";
+import logo from "../public/logo.jpg";
 import AboutBgSvg from "@/components/AboutBgSvg";
 import EduGroup from "@/components/EduGroup";
 
@@ -119,7 +119,7 @@ const AboutSection: React.FC = () => {
               <h2 className="section-heading">Who am I?</h2>
             </RoughNotation>
           </div>
-          <div className="md:grid grid-rows-5 lg:grid-rows-6 grid-cols-5">
+          <div className="md:grid grid-rows-5 lg:grid-rows-5 grid-cols-5">
             <div className="col-start-1 col-end-3 row-start-1 row-end-4 lg:row-end-7 lg:col-start-1 lg:col-end-3 flex justify-center items-center py-4 lg:mb-[20%]">
               <div className="relative w-72">
                 <svg
@@ -135,7 +135,7 @@ const AboutSection: React.FC = () => {
 
                 <div className="profile-picture overflow-hidden md:overflow-visible rounded-md md:shadow-2xl">
                   <Image
-                    src={bitCoin}
+                    src={logo}
                     width={1700}
                     height={1790}
                     priority
@@ -169,13 +169,7 @@ const AboutSection: React.FC = () => {
             </div>
 
             <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              With 7 years of
-              experience in building decentralized
-              applications (dApps), smart contracts, and
-              working with Ethereum and Hyperledger.
-              Skilled in Solidity, Web3.js, and
-              implementing secure blockchain solutions
-              My background ensures seamless integration of blockchain technologies with both front-end and back-end development
+            I am a passionate Software Engineer with a Bachelor’s Degree in Computer Science from Abertay University, Dundee (2015–2018). My time at university sparked my interest in technology, strengthened my problem-solving skills, and laid the foundation for my career. I also hold a Software Engineer Certificate, reflecting my dedication to continuous growth in the field.
             </p>
 
             <div
@@ -199,12 +193,11 @@ const AboutSection: React.FC = () => {
 const educationInfo = [
   {
     id: 1,
-    title: "B.Sc (Hons) in Blockchain Technology",
-    subTitle: "Abertay University | 2011 ~ 2015",
+    title: "Bachelor of Degree / Computer Science",
+    subTitle: "Abertay University | 2015 ~ 2018",
     list: [
-      "Studied blockchain architecture, smart contracts, and cryptography",
-      "Graduated with First Class Honours",
-      "Specialized in decentralized applications and achieved top marks in 7 out of 9 modules",
+      "Graduated with Upper Second Class Honours in Software Engineering",
+      "Studied Key Areas including Software Architecture",
     ],
   },
   {

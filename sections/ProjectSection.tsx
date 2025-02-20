@@ -8,18 +8,10 @@ import { useSection } from "context/section";
 import useOnScreen from "hooks/useOnScreen";
 import useScrollActive from "hooks/useScrollActive";
 
-import terminalPortfolio from "public/projects/terminal-portfolio.webp";
-import haruFashion from "public/projects/haru-fashion.webp";
-import haruApi from "public/projects/haru-api.webp";
-import astroPaper from "public/projects/astro-paper.webp";
-import nextBookstore from "public/projects/next-bookstore.webp";
-import shadcnAdmin from "public/projects/shadcn-admin.webp";
-import chainlens from "public/projects/chainlens.png";
-import horiza from "public/projects/horiza.jpg";
-import retroFinance from "public/projects/retro-finance.jpg";
-import xb3Finance from "public/projects/xb3-finance.jpg";
-import tryraffle from "public/projects/tryraffle.jpg";
-import furthermore from "public/projects/furthermore.jpg";
+import artlist from "public/projects/artlist.png";
+import blueprintsys from "public/projects/blueprintsys.png";
+import bitsten from "public/projects/bitsten.png";
+import simpleex from "public/projects/simpleex.png";
 
 const ProjectSection: React.FC = () => {
   const { theme } = useTheme();
@@ -63,109 +55,72 @@ const ProjectSection: React.FC = () => {
 
 const projects = [
   {
-    title: "Chainlens",
+    title: "Artlist",
+    type: "Fullstack",
+    image: (
+      <Image
+        src={artlist  }
+        sizes="100vw"
+        fill
+        alt="Artlist"
+        className="transition-transform duration-500 hover:scale-110 object-cover"
+      />
+    ),
+    desc: "Artlist: Subscription platform for royalty-free music, SFX, and footage. Offers user/creator interfaces, advanced search, app integration, custom recommendations (by SoftTeco), and a redesigned FXhome.",
+    tags: ["Angular", "Laravel", "React", "AWS", "Microsoft Azure"],
+    liveUrl: "https://artlist.io/",
+    bgColor: "bg-[#9FD0E3]",
+  },
+  {
+    title: "Blueprintsys",
     type: "Frontend",
     image: (
       <Image
-        src={chainlens  }
+        src={blueprintsys}
         sizes="100vw"
         fill
-        alt="Chainlens"
+        alt="blueprintsys"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Chainlens is a essential EVM blockchain explorer as a service. It offers a user-friendly platform to explore, analyze, and interact with EVM-compatible blockchains. Perfect for web3 network operators, enthusiasts, developers, and newcomers.",
-    tags: ["Web3.js", "Solidity", "React", "Typescript", "Twailwind"],
-    liveUrl: "https://www.chainlens.com/",
-    bgColor: "bg-[#9FD0E3]",
-    githubApi: "https://api.github.com/repos/satnaing/astro-paper",
-  },
-  {
-    title: "Horiza",
-    type: "Backend",
-    image: (
-      <Image
-        src={horiza}
-        sizes="100vw"
-        fill
-        alt="Horiza"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "Horiza is a decentralized exchange on the Arbitrum network with an innovative ve(3,3) model and oTokenomics for efficient capital use and steady growth, supported by auto-bribes and emission control. ",
-    tags: ["Ethers.js", "Solidity", "React", "Redux", "Material-UI"],
+    desc: "Blueprint: Helps enterprises scale to Agile by aligning business goals and IT deliverables. It offers visual modeling, process automation, artifact reuse, and task management, making it a leading solution in the market.",
+    tags: ["Angular", "TypeScript", "RxJS", "SCSS", "Webpack"],
     liveUrl: "https://horiza.io/",
     bgColor: "bg-[#B4BEE0]",
   },
   {
-    title: "Retro Finance",
-    type: "Backend",
+    title: "Bitsten",
+    type: "Fullstack",
     image: (
       <Image
-        src={retroFinance}
+        src={bitsten}
         sizes="100vw"
         fill
-        alt="Retro Finance"
+        alt="Bitsten"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "Retro is a decentralized exchange on the Polygon network that combines ve(3,3) tokenomics with innovative features like automatic bribes and concentrated liquidity pools to maximize yields and incentives.",
-    tags: ["Polygon", "Solidity", "Next", "Bootstrap", "Express"],
-    liveUrl: "https://haru-fashion.vercel.app/",
+    desc: "Bitsten: Core infrastructure project for blockchain ventures, focusing on secure and scalable cryptocurrency exchange services. Designed to support emerging blockchain applications and drive innovation.",
+    tags: ["Next js", "TypeScript", "RestAPI", "Laravel", "Kubernetes"],
+    liveUrl: "https://bitsten.com/",
     bgColor: "bg-[#A6CECE]",
-    githubApi: "https://api.github.com/repos/satnaing/haru-fashion",
   },
   {
-    title: "Xb3 Finance",
-    type: "Frontend",
+    title: "Simpleex",
+    type: "Fullstack",
     image: (
       <Image
-        src={xb3Finance}
+        src={simpleex}
         sizes="100vw"
         fill
-        alt="Xb3 Finance"
+        alt="Simpleex"
         className="transition-transform duration-500 hover:scale-110 object-cover"
       />
     ),
-    desc: "XB3 is a protocol on the Ethereum network that bridges traditional finance with DeFi, providing secure, regulated access for institutions and integrating with Curve and Convex for enhanced yield opportunities.",
-    tags: ["DeFi", "Solidity", "Nuxt", "Tailwind"],
-    liveUrl: "https://xb3.finance/",
+    desc: "Simpleex: A secure and efficient SaaS P2P platform designed to facilitate seamless cryptocurrency exchanges. It offers a user-friendly interface and robust security features, ensuring safe transactions for users.",
+    tags: ["React", "PHP", "MySQL", "RestAPI"],
+    liveUrl: "https://simpleex.co/",
     bgColor: "bg-[#C5E4E7]",
-  },
-  {
-    title: "Tryraffle",
-    type: "Frontend",
-    image: (
-      <Image
-        src={tryraffle}
-        sizes="100vw"
-        fill
-        alt="Tryraffle"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "Tryraffle is an innovative, blockchain-powered lottery platform built on BASE network, offering players a chance to participate in three distinct games with unique mechanics.",
-    tags: ["Solidity", "Hardhat ", "Python", "PostgreSQL", "React Native", "Docker Compose"],
-    liveUrl: "https://tryraffle.io/",
-    bgColor: "bg-[#EBF4F4]",
-    githubApi: "https://api.github.com/repos/satnaing/next-bookstore",
-  },
-  {
-    title: "Furthermore",
-    type: "frontend",
-    image: (
-      <Image
-        src={furthermore}
-        sizes="100vw"
-        fill
-        alt="Shadcn Admin"
-        className="transition-transform duration-500 hover:scale-110 object-cover"
-      />
-    ),
-    desc: "Furthermore, the platform is designed with user-centric features, ensuring a smooth navigational experience regardless of the user’s tech-savviness.",
-    tags: ["Solidity", "React", "IPFS"],
-    liveUrl: "https://cyberbee.dev/case-studies/nft-marketplace/",
-    bgColor: "bg-[#FBFBFB]",
   },
 ];
 

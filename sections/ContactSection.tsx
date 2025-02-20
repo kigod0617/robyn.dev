@@ -27,7 +27,7 @@ const ContactSection: React.FC = () => {
     <section
       ref={sectionRef}
       id="contact"
-      className="section min-h-[700px] text-center"
+      className="section min-h-[500px] text-center"
     >
       <div className="text-center">
         <RoughNotation

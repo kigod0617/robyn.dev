@@ -2,9 +2,10 @@ import { useSection } from "context/section";
 
 const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
   const { currentSection } = useSection();
+  console.log("currentSection=>", currentSection);
   return (
     <>
-      {page === "index" ? (
+      {/* {page === "index" ? (
         <div className="hidden fixed left-10 bottom-1/3 md:flex flex-col w-6 h-52 items-center justify-between">
           {navLinks.map((nav) => {
             return (
@@ -33,7 +34,7 @@ const SocialLinks: React.FC<{ page?: string }> = ({ page }) => {
           </div>
           <div className="w-40 h-1 bg-bgdark dark:bg-bglight rotate-90"></div>
         </div>
-      )}
+      )} */}
       <div className="hidden fixed right-10 bottom-0 md:flex flex-col w-6 h-[17rem] items-center justify-between">
         <div className="flex flex-col space-y-6">
           {socialLinks.map((social) => (

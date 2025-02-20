@@ -39,57 +39,72 @@ export const meta = {
 
 const skills = [
   {
-    'tag': 'Solidity',
-    'size': 'lg',
-    'count': 10
-  },
-  {
-    'tag': 'Cadence',
-    'size': 'lg',
-    'count': 10
-  },
-  {
-    'tag': 'Token Creation',
-    'size': 'lg',
-    'count': 10
-  },
-  {
-    'tag': 'DApp Development',
-    'size': 'lg',
-    'count': 10
-  },
-  {
-    'tag': 'Agile Development',
-    'size': 'lg',
-    'count': 10
-  },
-  {
-    'tag': 'Web3.js',
-    'size': 'lg',
-    'count': 10
-  },
-  {
-    'tag': 'Ethers.js',
-    'size': 'lg',
-    'count': 10
-  },
-  {
     'tag': 'React',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'Next',
+    'tag': 'Angular',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'Nuxt',
+    'tag': 'Kendo UI',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'Vue',
+    'tag': 'Webix',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Material UI',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Bootstrap',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'HTML5',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'CSS3',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'JavaScript',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'TypeScript',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'jQuery',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Node.js',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Express',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Nest',
     'size': 'lg',
     'count': 10
   },
@@ -99,45 +114,135 @@ const skills = [
     'count': 10
   },
   {
-    'tag': 'Material-UI',
+    'tag': 'Django',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'Tailwind CSS',
+    'tag': 'Python',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'Redux',
+    'tag': 'REST API',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'javascript',
+    'tag': 'GraphQL',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'javascript',
+    'tag': 'Prisma',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'javascript',
+    'tag': 'Microservices',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'javascript',
+    'tag': 'MySQL',
     'size': 'lg',
     'count': 10
   },
   {
-    'tag': 'javascript',
+    'tag': 'PostgreSQL',
     'size': 'lg',
     'count': 10
-  }
+  },
+  {
+    'tag': 'Oracle',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'MongoDB',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Redis',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'NoSQL',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Elasticsearch',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Cypress',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Jest',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Jasmine',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'TestNG',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Puppeteer',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'TDD',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Git',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Jenkins',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Docker',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'Kubernetes',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'AWS',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'API Integration,',
+    'size': 'lg',
+    'count': 10
+  },
+  {
+    'tag': 'QA Testing',
+    'size': 'lg',
+    'count': 10
+  },
 ]
 
 
@@ -187,8 +292,8 @@ const Home: NextPage<Props> = ({ blogPosts }) => {
               {skills.map((skill, index) => (
                 <Tag name={skill.tag} size={skill.size} count={skill.count} key={index}/>
               ))}
-            <ContactSection />
             </section>
+            <ContactSection />
           </main>
           <SocialLinks page="index" />
           <Footer />
